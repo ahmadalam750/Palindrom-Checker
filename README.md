@@ -1,1 +1,20 @@
-# Palindrom-Checker
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <h1>Palindrom</h1>
+            <input type="text" placeholder="Enter your character" id="userValue">
+            <button class="btn" onclick="palindromHandler()">Check Palindrom</button>
+            <p id="result">Palindrom</p>  
+    </div>
+        
+
+    <script src="app.js"></script>
+</body>
+</html>
